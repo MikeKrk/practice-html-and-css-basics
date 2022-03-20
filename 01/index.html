@@ -1,12 +1,194 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>devmentor.pl - HTML & CSS BASICS - #01</title>
+    <title>TheBikeHole</title>
+
+    <link rel="stylesheet" href="/01/style/menu0.css">
+    <link rel="stylesheet" href="/01/style/base.css">
+    <link rel="stylesheet" href="/01/style/container.css">
+    <link rel="stylesheet" href="/01/style/article.css">
+    <link rel="stylesheet" href="/01/style/img.css">
+    <link rel="stylesheet" href="/01/style/picture.css">
 </head>
-<body>
-    
+
+<body class="body">
+    <header>
+
+        <img class="img" src="./images/tbh.png" alt="thebikehole-logo">
+       
+        <ul class="menu">
+            <li>
+                <a href="">Shop</a>
+                <ul>
+                    <li>
+                        <a href="">Bikes</a>
+                    </li>
+                    <li>
+                        <a href="">Parts</a>
+                    </li>
+                    <li>
+                        <a href="">Clothes</a>
+                    </li>
+                    <li>
+                        <a href="">Shoes</a>
+                    </li>
+                    <li>
+                        <a href="">Protection</a>
+                    </li>
+                </ul>
+            </li>  
+            <li>
+                <a href="">Service</a>
+                <ul>
+                    <li>
+                        <a href="">Full service</a>
+                    </li>
+                    <li>
+                        <a href="">Basic service</a>
+                    </li>
+                    <li>
+                        <a href="">Suspension service</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Gallery</a>
+                <ul>
+                    <li>
+                        <a href="">Photos</a>
+                    </li>
+                    <li>
+                        <a href="">Movies</a>
+                    </li>
+                </ul>
+            </li>  
+        </ul>
+    </header>
+    <main class="article">
+        <article>
+            <h1>This is how we roll!</h1>
+            
+            <h4>
+                Our team consists of several people,
+                which were joined by a great passion for bicycles,
+                driving and broadly understood "freedom".
+
+            </h4>
+            <h4>
+                We believe that thanks to the combination of our passion
+                and many years of experience, we know exactly
+                how to meet your expectations.
+            </h4>
+
+            <h4>
+                We strive for perfection in our work
+                We believe that the effort we put into the service directly translates into the quality of your ride ...
+            </h4>
+            <h4>
+                … And that's why your bike service
+                takes place not only with the use of professional tools and the best materials,
+                but also with our full personal commitment.
+            </h4>
+
+        </article>   
+        <table>
+            <caption>The Bike Hole in Krakows bike service ranking</caption>
+            <colgroup>
+                <col style="background: rgb(51, 51, 51);">
+                <col style="background: rgb(61, 61, 61);">
+                <col style="background: rgb(71, 71, 71);">
+                <col style="background: rgb(81, 81, 81);">
+                <col style="background: rgb(91, 91, 91);">
+                <col style="background: rgb(101, 101, 101);">
+                <col style="background: rgb(111, 111, 111);">
+                <col style="background: rgb(121, 121, 121);">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">Year 2015</th>
+                    <th scope="col">Year 2016</th>
+                    <th scope="col">Year 2017</th>
+                    <th scope="col">Year 2018</th>
+                    <th scope="col">Year 2019</th>
+                    <th scope="col">Year 2020</th>
+                    <th scope="col">Year 2021</th>
+                    <th scope="col">Year 2022</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ranked as 35th</td>
+                    <td>Ranked as 18th</td>
+                    <td>Ranked as 12th</td>
+                    <td>Ranked as 9th</td>
+                    <td>Ranked as 5th</td>
+                    <td>Ranked as 3rd</td>
+                    <td>Ranked as 1st</td>
+                    <td>Until now is 1st</td>
+                </tr>
+            </tbody>
+         </table>
+         <section>
+            <h2>In Us You Can Trust - The Bike Hole® !</h2>
+            <p>Published by Mike Filipowski on March 2022</p>
+            
+            <section>
+                <h4>Opinions and comments below ! Please leave yours too ! </h4>
+            </section>
+
+            <img class="picture" src="/02/images/ilustration2.jpg" alt="ilustraion">
+        </section>
+        
+        <form action="mailto:bikeholeoffice@gmail.com" method="post" enctype="text/plain">
+                <input name="Name">Name<br>
+                <input name="Surname">Surname<br>
+                <input name="Nickname">Nickname<br>
+
+            <p>Sex:</p>
+                <input type="radio" name="Sex" value="Women">Women
+                <input type="radio" name="Sex" value="Man">Man
+                <input type="radio" name="Sex" value="Something">Im not sure
+            <p>Age:</p>
+                <input type="radio" name="Age" value="mniej niż 15">less than 15<br>
+                <input type="radio" name="Age" value="15-19">15-19<br>
+                <input type="radio" name="Age" value="20-29">20-29<br>
+                <input type="radio" name="Age" value="30-39">30-39<br>
+                <input type="radio" name="Age" value="40-60">40-60<br>
+                <input type="radio" name="Age" value="więcej niż 60">more than 60 
+            <p>Choose your weapon:</p>
+                <input type="checkbox" name="Weapon" value="Downhill">Downhill<br>
+                <input type="checkbox" name="Weapon" value="Enduro">Enduro<br>
+                <input type="checkbox" name="Weapon" value="XC">XC<br>
+                <input type="checkbox" name="Weapon" value="Road">Road<br>
+                <input type="checkbox" name="Weapon" value="City">City<br>
+                <input type="checkbox" name="Weapon" value="Other">Other (what kind?):
+                <input name="Choose Your weapon">
+            
+            <p>Enter your comment :</p>
+            
+            <textarea name="Comment" cols="50" rows="10">Please, enter your comments here ...</textarea>
+            <br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <div class="container">
+            <h3>Comments from our customers:</h3>
+            <p>Great service, bike is running better that new ! ~ BigJoe (08.03.2022 12:17)</p>
+            <p>Awsome service, service guy is perfectionist ! ~ SebaNH (08.03.2022 12:45)</p>
+            <p>My bike after visit rides sweet ! ~ Monica32 (08.03.2022 13:27)</p>
+            <p>Best service in town ! Thanks guys ! ~ TommyG (08.03.2022 14:12)</p>
+        </div>
+        
+    </main> 
+    <footer>
+        <h2>Copyright© 2022 by Mike Filipowski</h2>
+        
+        <h2>The Bike Hole® All right reserved</h2>
+        
+    </footer>
 </body>
+
 </html>

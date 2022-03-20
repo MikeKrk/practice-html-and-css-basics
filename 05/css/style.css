@@ -1,0 +1,68 @@
+.row, .cell, .container {
+    margin: 10px;
+    padding: 5px;
+    outline: 3px solid;
+}
+.row {
+    outline-color: green;
+}
+.container {
+    margin:0 auto;
+    max-width: 1000px;
+    outline-color: blue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+
+}
+.cell {
+    min-height: 50px;
+    outline-color: orange;
+    background-color: orange;
+}
+.header__logo{
+    min-width: 100px;
+    padding-left: 0%;
+    padding-top: 0;
+    margin: 0%;
+}
+.header__menu {
+    min-width: 300px;
+    margin: 0%;
+}
+.main__container {
+    height: 300px;
+    justify-content: space-between;
+    padding-left: 0%;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main__article {
+    width: 480px;
+    margin: 0%;
+    padding: 0;
+}
+
+.main__table {
+    width: 33.33%;   
+}
+.main__container2 {
+    height: 300px;
+    justify-content: space-between;
+}
+.footer {
+    min-height: 100px;
+}
+.footer__container {
+    justify-content: center;
+    align-items: center;
+}
+.footer__info {
+    width: 30%;
+}
